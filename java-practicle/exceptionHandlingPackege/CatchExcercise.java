@@ -5,7 +5,7 @@ public class CatchExcercise {
 	public static void main(String args[]) {
 		
 		try {
-			int arr[] = {1,2,3,5};
+			int arr[] = {1,4,3,5};
 			arr[5] = 30/5;
 		}
 		catch(ArithmeticException  ae) {
